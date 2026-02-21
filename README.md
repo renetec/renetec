@@ -1,89 +1,69 @@
-# Hi there, I'm René Tec 👋
+# Hi there, I'm René 👋
 
-## Full-Stack Developer
+## undefined
 
-📍 Quebec, Canada
+📍 Québec, Canada
 
-Passionate developer building impactful solutions across web and mobile platforms.
+I build applications that solve real-world problems. From Flutter mobile apps to Rails platforms to WordPress customizations.
 
-📫 **Contact:** rene@renetec.ca
+📫 **Contact:** undefined
 
 ---
 
 ## 🚀 Featured Projects
 
-### 📱 VidangeSTP
+### 💻 VidangeSTP
 
-**Flutter mobile app for septic tank management**
+**Multi-language garbage collection calendar**
 
-A comprehensive mobile application for managing septic tank maintenance services, featuring customer management, scheduling, and invoicing capabilities.
+Flutter app with Android + Web support for scheduling garbage collection events. Features customizable notifications and multi-language support with French as the primary language.
 
-**Tech Stack:** Flutter • Dart • Firebase • Google Maps API
+**Tech Stack:** Flutter • Dart • GitHub Pages
 
-**Highlights:**
-- Built with Flutter for cross-platform deployment
-- Real-time scheduling and route optimization
-- Customer database with service history
-- Automated invoice generation
-
-**Links:** [📂 GitHub](https://github.com/renetec/VidangeSTP)
+**Links:** [📂 GitHub](https://github.com/renetec/vidangestp)
 
 ---
 
-### 🌐 Ruby Community Platform
+### 💻 Ruby Community Platform
 
-**Rails-based community management system**
+**Full-stack social networking platform**
 
-A modern community platform built with Ruby on Rails, featuring user authentication, content management, and social interaction features.
+Rails-based community hub with comprehensive social features including real-time messaging, news feeds, user profiles, and media sharing capabilities.
 
-**Tech Stack:** Ruby on Rails • PostgreSQL • Hotwire • Tailwind CSS
+**Tech Stack:** Ruby on Rails • PostgreSQL • Redis • ActionCable • Sidekiq
 
-**Highlights:**
-- Full-stack Rails application with Hotwire
-- User authentication and authorization
-- Real-time updates with Turbo Streams
-- Responsive design with Tailwind CSS
-
-**Links:** [📂 GitHub](https://github.com/renetec/ruby-community-platform)
+**Links:** [📂 GitHub](https://github.com/renetec/ruby)
 
 ---
 
-### 🌐 CD St-Pacôme
+### 💻 CD St-Pacôme
 
-**WordPress site for community development organization**
+**Municipal website with custom WordPress plugins**
 
-A professional WordPress website for a community development corporation, featuring news updates, project showcases, and event management.
+Community website for the municipality of St-Pacôme featuring custom-built WordPress plugins tailored to local government needs.
 
-**Tech Stack:** WordPress • PHP • MySQL • Custom Themes
-
-**Highlights:**
-- Custom WordPress theme development
-- Content management for community initiatives
-- Event calendar and news system
-- SEO optimization and performance tuning
-
-**Links:** [🌐 Live Demo](https://cdstpacome.ca)
+**Tech Stack:** WordPress • PHP • MySQL • Custom Plugins
 
 ---
 
 ## 🛠️ Tech Stack
 
-`Custom Themes` `Dart` `Firebase` `Flutter` `Google Maps API` `Hotwire` `MySQL` `PHP` `PostgreSQL` `Ruby on Rails` `Tailwind CSS` `WordPress`
+`ActionCable` `Custom Plugins` `Dart` `Flutter` `GitHub Pages` `MySQL` `PHP` `PostgreSQL` `Redis` `Ruby on Rails` `Sidekiq` `WordPress`
 
 ---
 
 ## 📊 GitHub Stats
 
-![René Tec's GitHub stats](https://github-readme-stats.vercel.app/api?username=renetec&show_icons=true&theme=radical)
+![René's GitHub stats](https://github-readme-stats.vercel.app/api?username=undefined&show_icons=true&theme=radical)
 
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=renetec&layout=compact&theme=radical)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=undefined&layout=compact&theme=radical)
 
 ---
 
 ## 🤝 Let's Connect
 
-- 💼 GitHub: [@renetec](https://github.com/renetec)
-- 📧 Email: rene@renetec.ca
+- 💼 GitHub: [@undefined](https://github.com/undefined)
+- 📧 Email: undefined
 
 ---
 

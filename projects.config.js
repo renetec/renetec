@@ -1,73 +1,87 @@
-// Project configuration - single source of truth for profile README and portfolio site
 export const profile = {
-  name: "René Tec",
-  role: "Full-Stack Developer",
-  location: "Quebec, Canada",
-  bio: "Passionate developer building impactful solutions across web and mobile platforms.",
-  github: "renetec",
-  email: "rene@renetec.ca"
+  name: 'René',
+  username: 'renetec',
+  tagline: 'Full-stack developer building practical solutions',
+  bio: 'I build applications that solve real-world problems. From Flutter mobile apps to Rails platforms to WordPress customizations.',
+  location: 'Québec, Canada',
+  currentlyLearning: ['Svelte', 'SvelteKit'],
+  techStack: {
+    frontend: ['Flutter', 'Dart', 'Svelte', 'JavaScript', 'HTML/CSS'],
+    backend: ['Ruby on Rails', 'PHP', 'Node.js', 'PostgreSQL', 'MySQL'],
+    tools: ['Git', 'GitHub Actions', 'WordPress', 'Docker']
+  }
 };
 
 export const projects = [
   {
-    id: "vidangestp",
-    name: "VidangeSTP",
-    tagline: "Flutter mobile app for septic tank management",
-    description: "A comprehensive mobile application for managing septic tank maintenance services, featuring customer management, scheduling, and invoicing capabilities.",
-    tech: ["Flutter", "Dart", "Firebase", "Google Maps API"],
-    category: "mobile",
-    featured: true,
+    id: 'vidangestp',
+    name: 'VidangeSTP',
+    tagline: 'Multi-language garbage collection calendar',
+    description: 'Flutter app with Android + Web support for scheduling garbage collection events. Features customizable notifications and multi-language support with French as the primary language.',
+    tech: ['Flutter', 'Dart', 'GitHub Pages'],
+    features: [
+      'Multi-language support (French primary)',
+      'Android + Web deployment',
+      'Push notifications',
+      'Customizable events',
+      'Calendar integration'
+    ],
     year: 2024,
+    status: 'live',
+    visibility: 'public',
     links: {
-      github: "https://github.com/renetec/VidangeSTP",
-      demo: null
+      live: 'https://renetec.github.io/vidangestp/',
+      github: 'https://github.com/renetec/vidangestp'
     },
-    highlights: [
-      "Built with Flutter for cross-platform deployment",
-      "Real-time scheduling and route optimization",
-      "Customer database with service history",
-      "Automated invoice generation"
-    ]
+    featured: true,
+    lessonsLearned: null,
+    screenshots: ['vidangestp-calendar.png', 'vidangestp-settings.png']
   },
   {
-    id: "ruby-community",
-    name: "Ruby Community Platform",
-    tagline: "Rails-based community management system",
-    description: "A modern community platform built with Ruby on Rails, featuring user authentication, content management, and social interaction features.",
-    tech: ["Ruby on Rails", "PostgreSQL", "Hotwire", "Tailwind CSS"],
-    category: "web",
-    featured: true,
-    year: 2024,
-    links: {
-      github: "https://github.com/renetec/ruby-community-platform",
-      demo: null
-    },
-    highlights: [
-      "Full-stack Rails application with Hotwire",
-      "User authentication and authorization",
-      "Real-time updates with Turbo Streams",
-      "Responsive design with Tailwind CSS"
-    ]
-  },
-  {
-    id: "cdstpacome",
-    name: "CD St-Pacôme",
-    tagline: "WordPress site for community development organization",
-    description: "A professional WordPress website for a community development corporation, featuring news updates, project showcases, and event management.",
-    tech: ["WordPress", "PHP", "MySQL", "Custom Themes"],
-    category: "web",
-    featured: true,
+    id: 'ruby',
+    name: 'Ruby Community Platform',
+    tagline: 'Full-stack social networking platform',
+    description: 'Rails-based community hub with comprehensive social features including real-time messaging, news feeds, user profiles, and media sharing capabilities.',
+    tech: ['Ruby on Rails', 'PostgreSQL', 'Redis', 'ActionCable', 'Sidekiq'],
+    features: [
+      'User authentication & authorization',
+      'Real-time messaging with ActionCable',
+      'Activity feeds and timelines',
+      'Media uploads and galleries',
+      'Push notifications',
+      'Search and discovery'
+    ],
     year: 2023,
+    status: 'archived',
+    visibility: 'public',
     links: {
-      github: null,
-      demo: "https://cdstpacome.ca"
+      github: 'https://github.com/renetec/ruby'
     },
-    highlights: [
-      "Custom WordPress theme development",
-      "Content management for community initiatives",
-      "Event calendar and news system",
-      "SEO optimization and performance tuning"
-    ]
+    featured: true,
+    lessonsLearned: 'Building a social platform taught me that product-market fit matters as much as technical execution. Despite implementing complex features like real-time updates and scalable architecture, user adoption requires more than great code.',
+    screenshots: ['ruby-feed.png', 'ruby-profile.png', 'ruby-messaging.png']
+  },
+  {
+    id: 'cdstpacome',
+    name: 'CD St-Pacôme',
+    tagline: 'Municipal website with custom WordPress plugins',
+    description: 'Community website for the municipality of St-Pacôme featuring custom-built WordPress plugins tailored to local government needs.',
+    tech: ['WordPress', 'PHP', 'MySQL', 'Custom Plugins'],
+    features: [
+      'Custom plugin development',
+      'Community event management',
+      'Municipal service integration',
+      'Responsive design'
+    ],
+    year: 2023,
+    status: 'live',
+    visibility: 'client',
+    links: {
+      live: 'https://cdstpacome.ca'
+    },
+    featured: true,
+    lessonsLearned: null,
+    screenshots: []
   }
 ];
 
