@@ -1,0 +1,12 @@
+{
+  "name": "renetec-profile",
+  "version": "1.0.0",
+  "description": "GitHub profile README generator",
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate-readme.js"
+  },
+  "keywords": ["github", "profile", "readme"],
+  "author": "René",
+  "license": "MIT"
+}
