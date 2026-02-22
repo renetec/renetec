@@ -26,7 +26,7 @@ export const projects = [
       'Customizable events',
       'Calendar integration'
     ],
-    year: 2024,
+    year: 2026,
     status: 'live',
     visibility: 'public',
     links: {
