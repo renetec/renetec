@@ -32,66 +32,61 @@ function generateReadme() {
   let readme = '';
 
   // Header Section
-  readme += `# Hi there, I'm ${profile.name} 👋\n\n`;
-  readme += `## ${profile.role}\n\n`;
-  readme += `📍 ${profile.location}\n\n`;
+  readme += `# 👋 Hey, I'm ${profile.name}\n\n`;
   readme += `${profile.bio}\n\n`;
-  readme += `📫 **Contact:** ${profile.email}\n\n`;
+  readme += `🔭 Currently learning: ${profile.currentlyLearning.join(', ')}\n`;
+  readme += `💼 Check out my full portfolio: **[${profile.username}.github.io](https://${profile.username}.github.io)** ← Terminal-themed\n\n`;
   readme += `---\n\n`;
 
   // Featured Projects Section
   readme += `## 🚀 Featured Projects\n\n`;
 
   featuredProjects.forEach(project => {
-    const emoji = getEmojiForCategory(project.category);
-    readme += `### ${emoji} ${project.name}\n\n`;
-    readme += `**${project.tagline}**\n\n`;
-    readme += `${project.description}\n\n`;
+    const emoji = project.tech.includes('Flutter') ? '📱' :
+                  project.tech.includes('Ruby on Rails') ? '🌐' :
+                  project.tech.includes('WordPress') ? '🏛️' : '💻';
 
-    // Tech stack
-    readme += `**Tech Stack:** ${project.tech.join(' • ')}\n\n`;
-
-    // Highlights
-    if (project.highlights && project.highlights.length > 0) {
-      readme += `**Highlights:**\n`;
-      project.highlights.forEach(highlight => {
-        readme += `- ${highlight}\n`;
-      });
-      readme += `\n`;
-    }
+    readme += `### ${emoji} ${project.name}\n`;
+    readme += `${project.tagline}  \n`;
+    readme += `\`${project.tech.join('\`  \`')}\`  \n`;
 
     // Links
     const links = [];
-    if (project.links.github) {
-      links.push(`[📂 GitHub](${project.links.github})`);
+    if (project.links.live) {
+      links.push(`[Live Demo](${project.links.live})`);
     }
-    if (project.links.demo) {
-      links.push(`[🌐 Live Demo](${project.links.demo})`);
+    if (project.links.github) {
+      links.push(`[GitHub](${project.links.github})`);
     }
     if (links.length > 0) {
-      readme += `**Links:** ${links.join(' • ')}\n\n`;
+      readme += `${links.join(' • ')}\n`;
     }
 
-    readme += `---\n\n`;
+    // Lessons learned
+    if (project.lessonsLearned) {
+      readme += `\n**Lessons learned:** ${project.lessonsLearned}\n`;
+    }
+
+    readme += `\n`;
   });
 
+  readme += `---\n\n`;
+
   // Tech Stack Section
-  readme += `## 🛠️ Tech Stack\n\n`;
-  readme += `${techStack.map(tech => `\`${tech}\``).join(' ')}\n\n`;
+  readme += `## Tech Stack\n\n`;
+  readme += `**Frontend:** ${profile.techStack.frontend.join(' • ')}  \n`;
+  readme += `**Backend:** ${profile.techStack.backend.join(' • ')}  \n`;
+  readme += `**Tools:** ${profile.techStack.tools.join(' • ')}  \n\n`;
   readme += `---\n\n`;
 
   // GitHub Stats Section
-  readme += `## 📊 GitHub Stats\n\n`;
-  readme += `![${profile.name}'s GitHub stats](https://github-readme-stats.vercel.app/api?username=${profile.github}&show_icons=true&theme=radical)\n\n`;
-  readme += `![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=${profile.github}&layout=compact&theme=radical)\n\n`;
+  readme += `## GitHub Stats\n\n`;
+  readme += `![GitHub Stats](https://github-readme-stats.vercel.app/api?username=${profile.username}&show_icons=true&theme=dark)\n`;
+  readme += `![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=${profile.username}&layout=compact&theme=dark)\n\n`;
   readme += `---\n\n`;
 
-  // Footer Section
-  readme += `## 🤝 Let's Connect\n\n`;
-  readme += `- 💼 GitHub: [@${profile.github}](https://github.com/${profile.github})\n`;
-  readme += `- 📧 Email: ${profile.email}\n\n`;
-  readme += `---\n\n`;
-  readme += `*This README is auto-generated from [projects.config.js](./projects.config.js)*\n`;
+  // Footer
+  readme += `💬 [Full portfolio with terminal interface →](https://${profile.username}.github.io)\n`;
 
   return readme;
 }

@@ -1,70 +1,46 @@
-# Hi there, I'm René 👋
-
-## undefined
-
-📍 Québec, Canada
+# 👋 Hey, I'm René
 
 I build applications that solve real-world problems. From Flutter mobile apps to Rails platforms to WordPress customizations.
 
-📫 **Contact:** undefined
+🔭 Currently learning: Svelte, SvelteKit
+💼 Check out my full portfolio: **[renetec.github.io](https://renetec.github.io)** ← Terminal-themed
 
 ---
 
 ## 🚀 Featured Projects
 
-### 💻 VidangeSTP
+### 📱 VidangeSTP
+Multi-language garbage collection calendar  
+`Flutter`  `Dart`  `GitHub Pages`  
+[Live Demo](https://renetec.github.io/vidangestp/) • [GitHub](https://github.com/renetec/vidangestp)
 
-**Multi-language garbage collection calendar**
+### 🌐 Ruby Community Platform
+Full-stack social networking platform  
+`Ruby on Rails`  `PostgreSQL`  `Redis`  `ActionCable`  `Sidekiq`  
+[GitHub](https://github.com/renetec/ruby)
 
-Flutter app with Android + Web support for scheduling garbage collection events. Features customizable notifications and multi-language support with French as the primary language.
+**Lessons learned:** Building a social platform taught me that product-market fit matters as much as technical execution. Despite implementing complex features like real-time updates and scalable architecture, user adoption requires more than great code.
 
-**Tech Stack:** Flutter • Dart • GitHub Pages
-
-**Links:** [📂 GitHub](https://github.com/renetec/vidangestp)
-
----
-
-### 💻 Ruby Community Platform
-
-**Full-stack social networking platform**
-
-Rails-based community hub with comprehensive social features including real-time messaging, news feeds, user profiles, and media sharing capabilities.
-
-**Tech Stack:** Ruby on Rails • PostgreSQL • Redis • ActionCable • Sidekiq
-
-**Links:** [📂 GitHub](https://github.com/renetec/ruby)
+### 🏛️ CD St-Pacôme
+Municipal website with custom WordPress plugins  
+`WordPress`  `PHP`  `MySQL`  `Custom Plugins`  
+[Live Demo](https://cdstpacome.ca)
 
 ---
 
-### 💻 CD St-Pacôme
+## Tech Stack
 
-**Municipal website with custom WordPress plugins**
-
-Community website for the municipality of St-Pacôme featuring custom-built WordPress plugins tailored to local government needs.
-
-**Tech Stack:** WordPress • PHP • MySQL • Custom Plugins
+**Frontend:** Flutter • Dart • Svelte • JavaScript • HTML/CSS  
+**Backend:** Ruby on Rails • PHP • Node.js • PostgreSQL • MySQL  
+**Tools:** Git • GitHub Actions • WordPress • Docker  
 
 ---
 
-## 🛠️ Tech Stack
+## GitHub Stats
 
-`ActionCable` `Custom Plugins` `Dart` `Flutter` `GitHub Pages` `MySQL` `PHP` `PostgreSQL` `Redis` `Ruby on Rails` `Sidekiq` `WordPress`
-
----
-
-## 📊 GitHub Stats
-
-![René's GitHub stats](https://github-readme-stats.vercel.app/api?username=undefined&show_icons=true&theme=radical)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=undefined&layout=compact&theme=radical)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=renetec&show_icons=true&theme=dark)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=renetec&layout=compact&theme=dark)
 
 ---
 
-## 🤝 Let's Connect
-
-- 💼 GitHub: [@undefined](https://github.com/undefined)
-- 📧 Email: undefined
-
----
-
-*This README is auto-generated from [projects.config.js](./projects.config.js)*
+💬 [Full portfolio with terminal interface →](https://renetec.github.io)
